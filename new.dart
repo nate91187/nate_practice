@@ -1,3 +1,10 @@
+
+class Person {
+  String name;
+  Person(this.name);
+}
 main(){
-  print("hell naw");
+  var me = Person("nathan");
+  var name = me.name;
+  print("hello $name ");
 }
