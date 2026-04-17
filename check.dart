@@ -6,9 +6,11 @@ class Vehicle{
     print(model);
     print(year);
   }
+  
 }
 
 main(){
+
   var toyota = Vehicle("toyota", 1990);
   toyota.show();
 }
