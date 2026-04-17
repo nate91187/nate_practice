@@ -1,14 +1,14 @@
 class Vehicle{
   String model;
   int year;
-  Vehicle(this.name, this.year);
+  Vehicle(this.model, this.year);
   void show(){
-    print(name);
+    print(model);
     print(year);
   }
 }
 
 main(){
-  var toyota = Vehicle();
+  var toyota = Vehicle("toyota", 1990);
   toyota.show();
 }
