@@ -7,7 +7,7 @@ class Vehicle{
     print(year);
   }
   void showTogether(){
-    print("this is your model - $model and this is the year it was fabricated - $year" )
+    print("this is your model - $model and this is the year it was fabricated - $year" );
   }
 }
 
